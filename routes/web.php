@@ -20,3 +20,6 @@ Route::get('/', function () {
 Route::get('/kepala', function () {
     return view('kepala');
 });
+Route::get('/admin', function () {
+    return view('admin');
+});
